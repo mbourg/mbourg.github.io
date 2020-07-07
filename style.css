@@ -48,7 +48,7 @@ body {
 
 .contact-me {
   height: 50vh;
-  background-color: #F6E7CB;
+  background-color: #FAF0CA;
   box-sizing: border-box;
 }
 
@@ -85,6 +85,10 @@ body {
   margin-bottom: 0;
   font-family: 'Roboto Slab', sans-serif;
   font-size: 30px;
+}
+
+.skills-stack i:hover {
+  color: #F97068;
 }
 
 .top {
@@ -460,7 +464,7 @@ a:hover {
     height: 100vh;
     background-color: #F6E7CB;
     box-sizing: border-box;
-    padding-top: 4%;
+    padding-top: 10%;
   }
 
   .about-me {
@@ -480,11 +484,23 @@ a:hover {
   }
 
   .skills-stack {
-    padding-top: 10%;
     font-family: 'Roboto Slab', sans-serif;
   }
 
   .skills-stack h1{
+    font-weight: bolder;
+  }
+
+  .about-skills {
+    margin-left: -100px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  
+  .about-skills p {
+    font-size:  18px;
+  }
+
+  .about-skills h1{
     font-weight: bolder;
   }
 
