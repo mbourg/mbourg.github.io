@@ -454,6 +454,42 @@ a:hover {
     margin-left: 10%;
   }
 
+  /* Resume section */
+
+  .resume {
+    height: 100vh;
+    background-color: #F6E7CB;
+    box-sizing: border-box;
+    padding-top: 4%;
+  }
+
+  .about-me {
+    margin-left: -100px;
+  }
+  
+  .about-me p {
+    font-size:  18px;
+  }
+
+  .skills-stack {
+    margin-left: 0px;
+  }
+  
+  .skills-stack p {
+    font-size:  18px;
+  }
+
+  .skills-stack {
+    padding-top: 10%;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+
+  .skills-stack h1{
+    font-weight: bolder;
+  }
+
+
+
   /* Contact section  */
 
   .section-contact {
