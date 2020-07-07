@@ -365,6 +365,164 @@ a:hover {
 
 /* Media Queries */
 
+@media only screen and (min-width: 1400px) {
+
+  /* Main section  */
+
+  .main {
+    height: 100vh;
+    background-color: #F3E8EE;
+    box-sizing: border-box;
+    margin-left: -85px;
+  }
+
+  .top {
+    margin-left: 15%;
+    margin-top: 0;
+    padding-top: 11%;
+    display: flex;
+    align-items: center;
+  }
+
+  /* About section  */
+  
+  .about {
+    height: 100vh;
+    background-color: #FFD670;
+    box-sizing: border-box;
+    padding-top: 1%;
+    padding-left: 11%;
+  }
+
+  .about-section {
+    padding-top: 14%;
+    font-family: 'Roboto Slab', sans-serif;  
+  }
+
+  .about-me {
+    font-size:  10px;
+  }
+  
+  .about-me p {
+    font-size:  16px;
+  }
+
+  .about-img img {
+    width: 450px;
+    margin-left: 20%;
+    margin-top: 25%;
+    border: 10px solid white;
+  }
+
+  /* Projects section */
+
+  .about-projects {
+    padding-top: 14%;
+    margin-left: -70px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  
+  .about-projects p {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  .about-projects h1 {
+    font-weight: bolder;
+  }
+
+  .projects-sub {
+    padding-top: 11%;
+    margin-left: -70px;
+    font-family: 'Roboto Slab', sans-serif;  
+  }
+
+  .projects-sub h1 {
+    font-weight: bolder;
+  }
+
+  .projects-sub h2 {
+    font-size: 19px;
+  }
+  
+  .projects-sub p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .mockup-vamo img {
+    width: 500px;
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+  .mockup-robyn img {
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .mockup-others img {
+    width: 550px;
+    margin-top: 6%;
+    margin-left: 10%;
+  }
+
+  /* Resume section */
+
+  .resume {
+    height: 100vh;
+    background-color: #F6E7CB;
+    box-sizing: border-box;
+    padding-top: 9%;
+  }
+
+  .about-me {
+    margin-left: -100px;
+  }
+  
+  .about-me p {
+    font-size:  18px;
+  }
+
+  .skills-stack {
+    margin-left: 0px;
+  }
+  
+  .skills-stack p {
+    font-size:  18px;
+  }
+
+  .skills-stack {
+    font-family: 'Roboto Slab', sans-serif;
+    margin-left: 100px;
+  }
+
+  .skills-stack h1{
+    font-weight: bolder;
+  }
+
+  .about-skills {
+    margin-left: -20px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  
+  .about-skills p {
+    font-size:  16px;
+  }
+
+  .about-skills h1{
+    font-weight: bolder;
+  }
+
+  /* Contact section  */
+
+  .section-contact {
+    padding-top: 12%;
+    margin-left: -70px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+}
+
 @media only screen and (min-width: 1600px) {
 
   /* Main section  */
@@ -376,6 +534,14 @@ a:hover {
     margin-left: -85px;
   }
 
+  .top {
+    margin-left: 15%;
+    margin-top: 0;
+    padding-top: 14%;
+    display: flex;
+    align-items: center;
+  }
+
   /* About section  */
   
   .about {
@@ -383,15 +549,13 @@ a:hover {
     background-color: #FFD670;
     box-sizing: border-box;
     padding-top: 4%;
-  }
-
-  .about-section {
-    padding-top: 14%;
-    font-family: 'Roboto Slab', sans-serif;  
+    margin-left: -200px;
+    
   }
 
   .about-me {
-    margin-left: -100px;
+    padding-left: -300px;
+
   }
   
   .about-me p {
@@ -504,8 +668,6 @@ a:hover {
   .about-skills h1{
     font-weight: bolder;
   }
-
-
 
   /* Contact section  */
 
