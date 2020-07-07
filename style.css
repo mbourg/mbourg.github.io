@@ -1,0 +1,464 @@
+
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-moz-selection { background: #E9FF70; }
+::selection { background: #E9FF70; }
+
+html:before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 10px;
+  content: '';
+  display: block;
+  min-height: 100%;
+  height: 100%;
+  background: #F97068;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+
+}
+
+.gray {
+  color: gray;
+}
+
+.main {
+  height: 100vh;
+  background-color: #F3E8EE;
+  box-sizing: border-box;
+  margin-left: -85px;
+}
+
+.about {
+  height: 100vh;
+  background-color: #EEC643;
+  box-sizing: border-box;
+}
+
+.contact-me {
+  height: 50vh;
+  background-color: #F6E7CB;
+  box-sizing: border-box;
+}
+
+.contact-me h1 {
+  font-weight: bolder;
+}
+
+.projects {
+  height: 100vh;
+  background-color: #FFC0BE;
+  box-sizing: border-box;
+}
+
+.about-me h1{
+  font-weight: bolder;
+}
+
+.main p {
+  margin: 0;
+}
+
+.about h1 {
+  margin: 0;
+}
+
+.projects h1 {
+  margin: 0;
+}
+
+
+.back {
+  margin-left: 15%;
+  margin-top: 4%;
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 30px;
+}
+
+.top {
+  margin-left: 15%;
+  margin-top: 0;
+  padding-top: 14%;
+  display: flex;
+  align-items: center;
+}
+
+.top-sub {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.top-alt {
+  margin-left: 15%;
+  margin-top: 3.5%;
+
+}
+
+.top-alt p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 50px;
+  color: black;
+  display: inline-block;
+}
+
+.top img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+
+.top p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 50px;
+  color: black;
+  display: inline-block;
+}
+
+.mid {
+  margin-left: 15%;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.mid ul {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  list-style-type: square;
+  margin-left: -38px;
+
+}
+
+.mid ul li {
+  list-style-type: none;
+  padding: 5px 0px
+}
+
+.mid p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.footer {
+  margin-left: 15%;
+  display: flex;
+}
+
+.footer p {
+  padding-right: 60px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.sub-top {
+  margin-left: 15%;
+  display: flex;
+}
+
+.sub-top p {
+  padding-right: 60px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.avatar p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 50px;
+  color: black;
+  margin-top: 10%;
+}
+
+a, a:visited, a:active {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  background-color: #E9FF70 !important;
+  color: black !important;
+}
+
+.about-img img {
+  width: 500px;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.about-me {
+  padding-top: 10%;
+  font-family: 'Roboto Slab', sans-serif;
+
+}
+
+.about-section {
+  padding-top: 14%;
+  font-family: 'Roboto Slab', sans-serif;  
+}
+
+.section-contact {
+  padding-top: 12%;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.about-section p {
+  padding-top: 10px;
+}
+
+.about-section img {
+  width: 350px;
+  border: 10px solid white;
+  /* margin-left: 15%; */
+}
+
+.about-robyn img {
+  padding-top: 15%;
+  width: 500px;
+  /* border: 10px solid white; */
+  margin-left: 5%;
+}
+
+
+.about-vamo img {
+  width: 600px;
+  margin-top: 30%;
+}
+
+.about-projects {
+  padding-top: 14%;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.about-projects p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.about-projects h1 {
+  font-weight: bolder;
+}
+
+.about-section h1 {
+  font-weight: bolder;
+}
+
+.about-section h2 {
+  font-size: 19px;
+}
+
+.mid-project {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.mid-project ul {
+  list-style-type: none;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  list-style-type: square;
+  margin-left: -38px;
+}
+
+.mid-project ul li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+.mid-project p {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.mid-project a {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+
+.star {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 1.8s;
+    animation: animat_show 1.8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.wrapper_child{
+  width: 400%;
+  height: inherit;
+}
+
+.wrapper_child > .tab {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+#home {
+  background-color: #FFF;
+}
+
+#project-vamo {
+  background-color: #fa8b96;
+  }
+
+#project-robyn {
+  background-color: #FFC0BE;
+}
+
+#project-others {
+  background-color: #f9f9fb;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1600px) {
+
+  /* Main section  */
+
+  .main {
+    height: 100vh;
+    background-color: #F3E8EE;
+    box-sizing: border-box;
+    margin-left: -85px;
+  }
+
+  /* About section  */
+  
+  .about {
+    height: 100vh;
+    background-color: #FFD670;
+    box-sizing: border-box;
+    padding-top: 4%;
+  }
+
+  .about-section {
+    padding-top: 14%;
+    font-family: 'Roboto Slab', sans-serif;  
+  }
+
+  .about-me {
+    margin-left: -100px;
+  }
+  
+  .about-me p {
+    font-size:  18px;
+  }
+
+  .about-img img {
+    width: 600px;
+    margin-left: 15%;
+    margin-top: 20%;
+    border: 10px solid white;
+  }
+
+  /* Projects section */
+
+  .about-projects {
+    padding-top: 14%;
+    margin-left: -70px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  
+  .about-projects p {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  .about-projects h1 {
+    font-weight: bolder;
+  }
+
+  .projects-sub {
+    padding-top: 13%;
+    margin-left: -70px;
+    font-family: 'Roboto Slab', sans-serif;  
+  }
+
+  .projects-sub h1 {
+    font-weight: bolder;
+  }
+
+  .projects-sub h2 {
+    font-size: 19px;
+  }
+  
+  .projects-sub p {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .mockup-vamo img {
+    width: 700px;
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+  .mockup-robyn img {
+    width: 700px;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .mockup-others img {
+    width: 650px;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+
+  /* Contact section  */
+
+  .section-contact {
+    padding-top: 15%;
+    margin-left: -70px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+}
