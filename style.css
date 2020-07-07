@@ -485,6 +485,7 @@ a:hover {
 
   .skills-stack {
     font-family: 'Roboto Slab', sans-serif;
+    margin-left: 180px;
   }
 
   .skills-stack h1{
@@ -497,7 +498,7 @@ a:hover {
   }
   
   .about-skills p {
-    font-size:  18px;
+    font-size:  20px;
   }
 
   .about-skills h1{
