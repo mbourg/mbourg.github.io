@@ -1,13 +1,5 @@
-
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;600;700;800;900&display=swap');
-
-html {
-  scroll-behavior: smooth;
-}
-
-::-moz-selection { background: #E9FF70; }
-::selection { background: #E9FF70; }
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;600;700;800;900&display=swap");
 
 html:before {
   position: fixed;
@@ -15,80 +7,54 @@ html:before {
   left: 0;
   bottom: 0;
   width: 10px;
-  content: '';
+  content: "";
   display: block;
   min-height: 100%;
   height: 100%;
-  background: #F97068;
+  background: #f97068;
   z-index: 1;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  scroll-behavior: smooth;
-
 }
 
-.gray {
-  color: gray;
+::-moz-selection {
+  background: #e9ff70;
 }
+::selection {
+  background: #e9ff70;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  background-color: #e9ff70 !important;
+  color: black !important;
+}
+
+/* Main section  */
 
 .main {
   height: 100vh;
-  background-color: #F3E8EE;
+  background-color: #f3e8ee;
   box-sizing: border-box;
   margin-left: -85px;
-}
-
-.about {
-  height: 100vh;
-  background-color: #EEC643;
-  box-sizing: border-box;
-}
-
-.contact-me {
-  height: 50vh;
-  background-color: #FAF0CA;
-  box-sizing: border-box;
-}
-
-.contact-me h1 {
-  font-weight: bolder;
-}
-
-.projects {
-  height: 100vh;
-  background-color: #FFC0BE;
-  box-sizing: border-box;
-}
-
-.about-me h1{
-  font-weight: bolder;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .main p {
   margin: 0;
-}
-
-.about h1 {
-  margin: 0;
-}
-
-.projects h1 {
-  margin: 0;
-}
-
-
-.back {
-  margin-left: 15%;
-  margin-top: 4%;
-  margin-bottom: 0;
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 30px;
-}
-
-.skills-stack i:hover {
-  color: #F97068;
 }
 
 .top {
@@ -99,41 +65,18 @@ body {
   align-items: center;
 }
 
+.top p {
+  font-size: 50px;
+  color: black;
+  display: inline-block;
+}
+
 .top-sub {
-  font-family: 'Roboto Slab', sans-serif;
   font-size: 20px;
   margin-left: 15%;
   margin-top: 0;
   display: flex;
   align-items: center;
-}
-
-.top-alt {
-  margin-left: 15%;
-  margin-top: 3.5%;
-
-}
-
-.top-alt p {
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 50px;
-  color: black;
-  display: inline-block;
-}
-
-.top img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-
-.top p {
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 50px;
-  color: black;
-  display: inline-block;
 }
 
 .mid {
@@ -143,23 +86,20 @@ body {
   width: 50%;
 }
 
+.mid p {
+  font-size: 19px;
+  font-weight: lighter;
+}
+
 .mid ul {
-  font-family: 'Roboto Slab', sans-serif;
   font-size: 20px;
   list-style-type: square;
   margin-left: -38px;
-
 }
 
 .mid ul li {
   list-style-type: none;
-  padding: 5px 0px
-}
-
-.mid p {
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 19px;
-  font-weight: lighter;
+  padding: 5px 0px;
 }
 
 .footer {
@@ -169,47 +109,25 @@ body {
 
 .footer p {
   padding-right: 60px;
-  font-family: 'Roboto Slab', sans-serif;
   font-weight: lighter;
   font-size: 20px;
 }
 
-.sub-top {
-  margin-left: 15%;
-  display: flex;
+/* About section */
+
+.about {
+  height: 100vh;
+  background-color: #eec643;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", sans-serif;
 }
 
-.sub-top p {
-  padding-right: 60px;
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: lighter;
-  font-size: 20px;
+.about-me {
+  padding-top: 10%;
 }
 
-.avatar {
-  display: flex;
-  flex-direction: row;
-
-}
-
-
-
-.avatar p {
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 50px;
-  color: black;
-  margin-top: 10%;
-}
-
-a, a:visited, a:active {
-  text-decoration: none !important;
-  color: black !important;
-}
-
-a:hover {
-  text-decoration: none !important;
-  background-color: #E9FF70 !important;
-  color: black !important;
+.about-me h1 {
+  font-weight: bolder;
 }
 
 .about-img img {
@@ -218,48 +136,27 @@ a:hover {
   margin-left: 10%;
 }
 
-.about-me {
-  padding-top: 10%;
-  font-family: 'Roboto Slab', sans-serif;
+/* Resume and kills section */
 
+.skills-stack i:hover {
+  color: #f97068;
 }
 
-.about-section {
-  padding-top: 14%;
-  font-family: 'Roboto Slab', sans-serif;  
+/* Projects section */
+
+.projects {
+  height: 100vh;
+  background-color: #ffc0be;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", sans-serif;
 }
 
-.section-contact {
-  padding-top: 12%;
-  font-family: 'Roboto Slab', sans-serif;
-}
-
-.about-section p {
-  padding-top: 10px;
-}
-
-.about-section img {
-  width: 350px;
-  border: 10px solid white;
-  /* margin-left: 15%; */
-}
-
-.about-robyn img {
-  padding-top: 15%;
-  width: 500px;
-  /* border: 10px solid white; */
-  margin-left: 5%;
-}
-
-
-.about-vamo img {
-  width: 600px;
-  margin-top: 30%;
+.projects h1 {
+  margin: 0;
 }
 
 .about-projects {
   padding-top: 14%;
-  font-family: 'Roboto Slab', sans-serif;
 }
 
 .about-projects p {
@@ -271,23 +168,19 @@ a:hover {
   font-weight: bolder;
 }
 
-.about-section h1 {
-  font-weight: bolder;
-}
-
-.about-section h2 {
-  font-size: 19px;
-}
-
 .mid-project {
   margin-top: 5px;
   margin-bottom: 40px;
   width: 50%;
 }
 
+.mid-project p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 .mid-project ul {
   list-style-type: none;
-  font-family: 'Roboto Slab', sans-serif;
   font-size: 20px;
   list-style-type: square;
   margin-left: -38px;
@@ -298,14 +191,8 @@ a:hover {
   padding: 5px 0px;
 }
 
-.mid-project p {
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
 .mid-project a {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 20px;
   font-weight: lighter;
 }
@@ -313,20 +200,47 @@ a:hover {
 
 
 
-.star {
-    visibility: hidden;
+
+
+
+
+.contact-me h1 {
+  font-weight: bolder;
+}
+
+.contact-me {
+  height: 50vh;
+  background-color: #faf0ca;
+  box-sizing: border-box;
+}
+
+.section-contact {
+  padding-top: 12%;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+/* Javascript pictures animation */
+
+.picture {
+  visibility: hidden;
 }
 
 .fadeIn {
-    -webkit-animation: animat_show 1.8s;
-    animation: animat_show 1.8s;
-    visibility: visible !important;
+  -webkit-animation: animat_show 1.8s;
+  animation: animat_show 1.8s;
+  visibility: visible !important;
 }
 
-@-webkit-keyframes animat_show{
-    0%{opacity:0}
-    100%{opacity:1}
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
+
+/* Horizontal navigation on Projects section */
 
 .wrapper {
   height: 100vh;
@@ -335,7 +249,7 @@ a:hover {
   overflow-x: scroll;
 }
 
-.wrapper_child{
+.wrapper_child {
   width: 400%;
   height: inherit;
 }
@@ -348,15 +262,15 @@ a:hover {
 }
 
 #home {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 #project-vamo {
   background-color: #fa8b96;
-  }
+}
 
 #project-robyn {
-  background-color: #FFC0BE;
+  background-color: #ffc0be;
 }
 
 #project-others {
@@ -366,12 +280,11 @@ a:hover {
 /* Media Queries */
 
 @media only screen and (min-width: 1024px) {
-
   /* Main section  */
 
   .main {
     height: 100vh;
-    background-color: #F3E8EE;
+    background-color: #f3e8ee;
     box-sizing: border-box;
     margin-left: -70px;
   }
@@ -398,16 +311,16 @@ a:hover {
 
   .footer p {
     padding-right: 60px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-weight: lighter;
     font-size: 15px;
   }
 
   /* About section  */
-  
+
   .about {
     height: 100vh;
-    background-color: #FFD670;
+    background-color: #ffd670;
     box-sizing: border-box;
     padding-top: 0px;
     padding-left: 16%;
@@ -415,20 +328,20 @@ a:hover {
 
   .about-section {
     padding-top: 1%;
-    font-family: 'Roboto Slab', sans-serif;  
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .about-me {
     margin-top: -20px;
     margin-left: -90px;
   }
-  
+
   .about-me p {
-    font-size:  12px;
+    font-size: 12px;
   }
 
   .about-me h1 {
-    font-size:  30px;
+    font-size: 30px;
   }
 
   .about-img img {
@@ -443,16 +356,16 @@ a:hover {
   .about-projects {
     padding-top: 1%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .about-projects h1 {
-    font-size:  30px;
+    font-size: 30px;
     font-weight: bolder;
   }
 
   .about-projects p {
-    font-size:  12px;
+    font-size: 12px;
   }
 
   .project-img img {
@@ -461,7 +374,7 @@ a:hover {
     padding-top: 3%;
     border: 10px solid white;
   }
-  
+
   .about-projects p {
     font-size: 15px;
     font-weight: 100;
@@ -470,7 +383,7 @@ a:hover {
   .projects-sub {
     padding-top: 6%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;  
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .projects-sub h1 {
@@ -481,7 +394,7 @@ a:hover {
   .projects-sub h2 {
     font-size: 15px;
   }
-  
+
   .projects-sub p {
     font-size: 12px;
     padding-top: 10px;
@@ -508,32 +421,32 @@ a:hover {
 
   .resume {
     height: 100vh;
-    background-color: #F6E7CB;
+    background-color: #f6e7cb;
     box-sizing: border-box;
     padding-top: 6%;
     padding-left: 9%;
   }
 
   .skills-stack {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     margin-left: -50px;
   }
 
-  .skills-stack h1{
+  .skills-stack h1 {
     font-size: 30px;
     font-weight: bolder;
   }
 
   .about-skills {
     margin-left: -20px;
-    font-family: 'Roboto Slab', sans-serif;
-  }
-  
-  .about-skills p {
-    font-size:  12px;
+    font-family: "Roboto Slab", sans-serif;
   }
 
-  .about-skills h1{
+  .about-skills p {
+    font-size: 12px;
+  }
+
+  .about-skills h1 {
     font-size: 30px;
     font-weight: bolder;
   }
@@ -543,7 +456,7 @@ a:hover {
   .section-contact {
     padding-top: 7%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
   .section-contact h1 {
     font-size: 30px;
@@ -551,12 +464,11 @@ a:hover {
 }
 
 @media only screen and (min-width: 1280px) {
-
   /* Main section  */
 
   .main {
     height: 100vh;
-    background-color: #F3E8EE;
+    background-color: #f3e8ee;
     box-sizing: border-box;
     margin-left: -85px;
   }
@@ -587,10 +499,10 @@ a:hover {
   }
 
   /* About section  */
-  
+
   .about {
     height: 100vh;
-    background-color: #FFD670;
+    background-color: #ffd670;
     box-sizing: border-box;
     padding-top: -100px;
     padding-left: 16%;
@@ -598,15 +510,15 @@ a:hover {
 
   .about-section {
     padding-top: 14%;
-    font-family: 'Roboto Slab', sans-serif;  
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .about-me {
     margin-left: -100px;
   }
-  
+
   .about-me p {
-    font-size:  16px;
+    font-size: 16px;
   }
 
   .about-img img {
@@ -621,7 +533,7 @@ a:hover {
   .about-projects {
     padding-top: 1%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .project-img img {
@@ -630,12 +542,12 @@ a:hover {
     padding-top: 6%;
     border: 10px solid white;
   }
-  
+
   .about-projects p {
     font-size: 18px;
     font-weight: 100;
   }
-  
+
   .about-projects h1 {
     font-weight: bolder;
   }
@@ -643,7 +555,7 @@ a:hover {
   .projects-sub {
     padding-top: 7%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;  
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .projects-sub h1 {
@@ -653,7 +565,7 @@ a:hover {
   .projects-sub h2 {
     font-size: 19px;
   }
-  
+
   .projects-sub p {
     font-size: 16px;
     padding-top: 10px;
@@ -680,31 +592,31 @@ a:hover {
 
   .resume {
     height: 100vh;
-    background-color: #F6E7CB;
+    background-color: #f6e7cb;
     box-sizing: border-box;
     padding-top: 8%;
     padding-left: 9%;
   }
 
   .skills-stack {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     margin-left: 100px;
   }
 
-  .skills-stack h1{
+  .skills-stack h1 {
     font-weight: bolder;
   }
 
   .about-skills {
     margin-left: -20px;
-    font-family: 'Roboto Slab', sans-serif;
-  }
-  
-  .about-skills p {
-    font-size:  16px;
+    font-family: "Roboto Slab", sans-serif;
   }
 
-  .about-skills h1{
+  .about-skills p {
+    font-size: 16px;
+  }
+
+  .about-skills h1 {
     font-weight: bolder;
   }
 
@@ -713,17 +625,16 @@ a:hover {
   .section-contact {
     padding-top: 10%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
 }
 
 @media only screen and (min-width: 1400px) {
-
   /* Main section  */
 
   .main {
     height: 100vh;
-    background-color: #F3E8EE;
+    background-color: #f3e8ee;
     box-sizing: border-box;
     margin-left: -85px;
   }
@@ -754,10 +665,10 @@ a:hover {
   }
 
   /* About section  */
-  
+
   .about {
     height: 100vh;
-    background-color: #FFD670;
+    background-color: #ffd670;
     box-sizing: border-box;
     padding-top: 1%;
     padding-left: 11%;
@@ -765,15 +676,15 @@ a:hover {
 
   .about-section {
     padding-top: 14%;
-    font-family: 'Roboto Slab', sans-serif;  
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .about-me {
-    font-size:  10px;
+    font-size: 10px;
   }
-  
+
   .about-me p {
-    font-size:  16px;
+    font-size: 16px;
   }
 
   .about-img img {
@@ -788,18 +699,18 @@ a:hover {
   .about-projects {
     padding-top: 10%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .project-img {
     padding-top: 10%;
   }
-  
+
   .about-projects p {
     font-size: 18px;
     font-weight: 100;
   }
-  
+
   .about-projects h1 {
     font-weight: bolder;
   }
@@ -807,7 +718,7 @@ a:hover {
   .projects-sub {
     padding-top: 11%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;  
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .projects-sub h1 {
@@ -817,7 +728,7 @@ a:hover {
   .projects-sub h2 {
     font-size: 19px;
   }
-  
+
   .projects-sub p {
     font-size: 16px;
     padding-top: 10px;
@@ -844,7 +755,7 @@ a:hover {
 
   .resume {
     height: 100vh;
-    background-color: #F6E7CB;
+    background-color: #f6e7cb;
     box-sizing: border-box;
     padding-top: 9%;
   }
@@ -852,38 +763,38 @@ a:hover {
   .about-me {
     margin-left: -100px;
   }
-  
+
   .about-me p {
-    font-size:  18px;
+    font-size: 18px;
   }
 
   .skills-stack {
     margin-left: 0px;
   }
-  
+
   .skills-stack p {
-    font-size:  18px;
+    font-size: 18px;
   }
 
   .skills-stack {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     margin-left: 100px;
   }
 
-  .skills-stack h1{
+  .skills-stack h1 {
     font-weight: bolder;
   }
 
   .about-skills {
     margin-left: -85px;
-    font-family: 'Roboto Slab', sans-serif;
-  }
-  
-  .about-skills p {
-    font-size:  16px;
+    font-family: "Roboto Slab", sans-serif;
   }
 
-  .about-skills h1{
+  .about-skills p {
+    font-size: 16px;
+  }
+
+  .about-skills h1 {
     font-weight: bolder;
   }
 
@@ -892,17 +803,16 @@ a:hover {
   .section-contact {
     padding-top: 12%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
 }
 
 @media only screen and (min-width: 1600px) {
-
   /* Main section  */
 
   .main {
     height: 100vh;
-    background-color: #F3E8EE;
+    background-color: #f3e8ee;
     box-sizing: border-box;
     margin-left: -85px;
   }
@@ -933,23 +843,21 @@ a:hover {
   }
 
   /* About section  */
-  
+
   .about {
     height: 100vh;
-    background-color: #FFD670;
+    background-color: #ffd670;
     box-sizing: border-box;
     padding-top: 4%;
     margin-left: -200px;
-    
   }
 
   .about-me {
     padding-left: -300px;
-
   }
-  
+
   .about-me p {
-    font-size:  18px;
+    font-size: 18px;
   }
 
   .about-img img {
@@ -964,7 +872,7 @@ a:hover {
   .about-projects {
     padding-top: 12%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .project-img img {
@@ -972,12 +880,12 @@ a:hover {
     margin-left: 150px;
     width: 500px;
   }
-  
+
   .about-projects p {
     font-size: 18px;
     font-weight: 100;
   }
-  
+
   .about-projects h1 {
     font-weight: bolder;
   }
@@ -985,7 +893,7 @@ a:hover {
   .projects-sub {
     padding-top: 13%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;  
+    font-family: "Roboto Slab", sans-serif;
   }
 
   .projects-sub h1 {
@@ -995,7 +903,7 @@ a:hover {
   .projects-sub h2 {
     font-size: 19px;
   }
-  
+
   .projects-sub p {
     font-size: 18px;
     padding-top: 10px;
@@ -1022,48 +930,47 @@ a:hover {
 
   .resume {
     height: 100vh;
-    background-color: #F6E7CB;
+    background-color: #f6e7cb;
     box-sizing: border-box;
     padding-top: 10%;
     margin-left: -160px;
-
   }
 
   .about-me {
     margin-left: -100px;
   }
-  
+
   .about-me p {
-    font-size:  18px;
+    font-size: 18px;
   }
 
   .skills-stack {
     margin-left: -100px;
   }
-  
+
   .skills-stack p {
-    font-size:  18px;
+    font-size: 18px;
   }
 
   .skills-stack {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     margin-left: 180px;
   }
 
-  .skills-stack h1{
+  .skills-stack h1 {
     font-weight: bolder;
   }
 
   .about-skills {
     margin-left: -100px;
-    font-family: 'Roboto Slab', sans-serif;
-  }
-  
-  .about-skills p {
-    font-size:  20px;
+    font-family: "Roboto Slab", sans-serif;
   }
 
-  .about-skills h1{
+  .about-skills p {
+    font-size: 20px;
+  }
+
+  .about-skills h1 {
     font-weight: bolder;
   }
 
@@ -1072,6 +979,6 @@ a:hover {
   .section-contact {
     padding-top: 15%;
     margin-left: -70px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
   }
 }

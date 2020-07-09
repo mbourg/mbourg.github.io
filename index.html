@@ -26,12 +26,12 @@
 
     // if the image in the window of browser when the page is loaded, show that image
     $(document).ready(function(){
-        showImages('.star');
+        showImages('.picture');
     });
 
     // if the image in the window of browser when scrolling the page, show that image
     $(window).scroll(function() {
-        showImages('.star');
+        showImages('.picture');
     });
   </script>
 
@@ -40,6 +40,7 @@
 <body>
 
   <section class="main">
+
     <div class="top">
       <p>Hi, I'm <strong>Matheus Bourg</strong></p>
     </div>
@@ -50,10 +51,10 @@
 
     <div class="mid mt-4">
       <ul>
-        <li><a href="#about"> <i class="fas fa-hand-peace ml-1"></i> About me</a></li>
-        <li><a href="#skills"> <i class="fas fa-tools ml-1"></i></i> Skills</a></li>
-        <li><a href="#projects" target="new_window"><i class="fas fa-terminal ml-1"></i> Projects</a></li>
-        <li><a href="#contact" target="new_window"> <i class="fas fa-envelope ml-1"></i> Contact me</a></li>
+        <li><a href="#link-about"> <i class="fas fa-hand-peace ml-1"></i> About me</a></li>
+        <li><a href="#link-skills"> <i class="fas fa-tools ml-1"></i></i> Skills</a></li>
+        <li><a href="#link-projects" target="new_window"><i class="fas fa-terminal ml-1"></i> Projects</a></li>
+        <li><a href="#link-contact" target="new_window"> <i class="fas fa-envelope ml-1"></i> Contact me</a></li>
       </ul>
     </div>
 
@@ -61,6 +62,7 @@
       <p><a href="https://github.com/mbourg" target="_blank"><i class="fas fa-ellipsis-h mr-2 "></i>Github </a></p>
       <p><a href="https://linkedin.com/in/matheusbourg" target="_blank"><i class="fas fa-ellipsis-h mr-2 "></i>LinkedIn ‍</a></p>
     </div>
+    
   </section>
 
   <section class="about" id="link-about">
@@ -69,70 +71,66 @@
         <div class="row">
           <div class="col about-me">
             <h1>About me</h1>
-      <p class="mt-3">I’ve started my career writing about videogames for some big brazilian specialized magazines and then spent half a decade working at UOL, the largest content, technology and media company in Brazil. In 2014, I left UOL to help launch a startup called <strong>Vamo</strong>, one of the country’s first integrated payment & ticketing service - an experience that has taught me a whole lot about designing, developing, launching and managing a product <em>slash</em> business. Parallel to this, I’ve also worked on designing and launching other products, mostly for the fintech industry.<br><br>
-
-        In 2020, I’ve decided to join <strong>Le Wagon’s Full Stack Web Developer</strong> coding bootcamp and shift my career towards being a software developer - so here I am. I love music, travelling, spending time at home with my wife and cats and - well - developing things. </p>
+              <p class="mt-3">I’ve started my career writing about videogames for some big brazilian specialized magazines and then spent half a decade working at UOL, the largest content, technology and media company in Brazil. In 2014, I left UOL to help launch a startup called <strong>Vamo</strong>, one of the country’s first integrated payment & ticketing service - an experience that has taught me a whole lot about designing, developing, launching and managing a product <em>slash</em> business. Parallel to this, I’ve also worked on designing and launching other products, mostly for the fintech industry.
+              <br><br>
+              In 2020, I’ve decided to join <strong>Le Wagon’s Full Stack Web Developer</strong> coding bootcamp and shift my career towards being a software developer - so here I am. I love music, travelling, spending time at home with my wife and cats and - well - developing things. </p>
           </div>
           <div class="col about-img">
-            <img src="images/foto-about.jpeg" class="star"/>
+            <img src="images/foto-about.jpeg" class="picture"/>
           </div>
         </div>
-        </div>
+      </div>
 
   </section>
 
-  <section class="resume" id="skills">
+  <section class="resume" id="link-skills">
 
     <div class="container">
       <div class="row">
         <div class="col about-skills">
           <h1>What I've been up to</h1>
-      <p class="mt-4">
-        <strong>Modern JavaScript for Front-end and Back-end</strong>
-        <br>Caelum, São Paulo | July, 2020
-        <br><br>
-
-        <strong>Full Stack Web Development Bootcamp</strong>
-        <br>Le Wagon, São Paulo | April - June, 2020
-        <br><br>
-
-        <strong>Scrum Product Owner Certification</strong>
-        <br>Scrum Alliance/Caelum, São Paulo | July, 2019
-        <br><br>
-
-        <strong>Scrum Master Certification</strong>
-        <br>Scrum Alliance/Caelum, São Paulo | July, 2019
-        <br><br>
-
-        <strong>Digital Product Leadership Bootcamp</strong>
-        <br>TERA, São Paulo | January, 2018
-        <br><br>
-      </p>
+            <p class="mt-4">
+            <strong>Modern JavaScript for Front-end and Back-end</strong>
+            <br>Caelum, São Paulo | July, 2020
+            <br><br>
+            <strong>Full Stack Web Development Bootcamp</strong>
+            <br>Le Wagon, São Paulo | April - June, 2020
+            <br><br>
+            <strong>Scrum Product Owner Certification</strong>
+            <br>Scrum Alliance/Caelum, São Paulo | July, 2019
+            <br><br>
+            <strong>Scrum Master Certification</strong>
+            <br>Scrum Alliance/Caelum, São Paulo | July, 2019
+            <br><br>
+            <strong>Digital Product Leadership Bootcamp</strong>
+            <br>TERA, São Paulo | January, 2018
+            <br><br>
+            </p>
         </div>
         <div class="col skills-stack">
           <h1>Skills</h1>
-      <p class="mt-3">
-        <i class="icon-ruby-on-rails-alt mr-1" style="font-size: 48px;" title="Ruby on Rails"></i>
-        <i class="icon-ruby mr-3" style="font-size: 48px;" title="Ruby"></i>
-        <i class="fab fa-html5 mr-3" style="font-size: 50px;" title="HTML5"></i>
-        <i class="fab fa-js-square mr-3" style="font-size: 50px;" title="JavaScript"></i>
-        <i class="fab fa-css3-alt mr-3" style="font-size: 50px;" title="CSS3"></i>
-        <i class="fab fa-sass mr-3" style="font-size: 50px;" title="SCSS"></i>
-        <br>
-        <i class="icon-bootstrap mr-3" style="font-size: 44px;" title="Bootstrap"></i></i>
-        <i class="icon-mysql mr-2" style="font-size: 48px;" title="MySQL"></i>
-        <i class="icon-postgres mr-3" style="font-size: 48px;" title="PostgreSQL"></i>
-        <i class="fab fa-github-square mr-3" style="font-size: 48px;" title="GitHub"></i>
-        <i class="fab fa-figma mr-3" style="font-size: 50px;" title="Figma"></i>
-        <i class="fab fa-sketch mr-3" style="font-size: 50px;" title="Sketch"></i>
-      </p>
+          <p class="mt-3">
+            <i class="icon-ruby-on-rails-alt mr-1" style="font-size: 48px;" title="Ruby on Rails"></i>
+            <i class="icon-ruby mr-3" style="font-size: 48px;" title="Ruby"></i>
+            <i class="fab fa-html5 mr-3" style="font-size: 50px;" title="HTML5"></i>
+            <i class="fab fa-js-square mr-3" style="font-size: 50px;" title="JavaScript"></i>
+            <i class="fab fa-css3-alt mr-3" style="font-size: 50px;" title="CSS3"></i>
+            <i class="fab fa-sass mr-3" style="font-size: 50px;" title="SCSS"></i>
+            <br>
+            <i class="icon-bootstrap mr-3" style="font-size: 44px;" title="Bootstrap"></i></i>
+            <i class="icon-mysql mr-2" style="font-size: 48px;" title="MySQL"></i>
+            <i class="icon-postgres mr-3" style="font-size: 48px;" title="PostgreSQL"></i>
+            <i class="fab fa-github-square mr-3" style="font-size: 48px;" title="GitHub"></i>
+            <i class="fab fa-figma mr-3" style="font-size: 50px;" title="Figma"></i>
+            <i class="fab fa-sketch mr-3" style="font-size: 50px;" title="Sketch"></i>
+          </p>
         </div>
       </div>
-      </div>
+    </div>
 
 </section>
 
-    <section id="projects">
+    <section id="link-projects">
 
       <div class="wrapper">
         <div class="wrapper_child">
@@ -149,12 +147,12 @@
                       <li><a href="#project-robyn"> <i class="fas fa-paw ml-1 mr-2"></i> Robyn</a></li>
                       <li><a href="#project-others"><i class="fas fa-code ml-1 mr-2"></i> Others</a></li>
                     </ul>
-                  </div>                </div>
+                  </div></div>
                 <div class="col project-img">
-                  <img src="images/site-mockups.png" class="star" />
+                  <img src="images/site-mockups.png" class="picture" />
                 </div>
               </div>
-              </div>
+            </div>
           </div>
 
           <div id="project-vamo" class="tab">
@@ -169,10 +167,10 @@
                     <p><a href="https://vamoapp.com/" target="_blank"><i class="fas fa-desktop"></i> Website</a> <a href="https://apps.apple.com/us/app/paguemob/id635024895?ls=1" target="_blank"><i class="fab fa-apple ml-3"></i> iOS</a> <a href="https://play.google.com/store/apps/details?id=com.braspay.mobile" target="_blank"><i class="fab fa-android ml-3"></i> Android</a></p>
                 </div>
                 <div class="col mockup-vamo">
-                  <img src="images/vamo-mockup.png" class="star" />
+                  <img src="images/vamo-mockup.png" class="picture" />
                 </div>
               </div>
-              </div>
+            </div>
           </div>
 
           <div id="project-robyn" class="tab">
@@ -181,14 +179,14 @@
                 <div class="col projects-sub">
                   <h1>Robyn</h1>
                   <h2 class="mt-2"><strong>Roles:</strong> Lead Designer, Full Stack Developer</h2>
-            <p>Robyn was conceived as the final project for me and two other colleagues at Le Wagon’s Full Stack Web Development bootcamp. Built from scratch in 1,5 weeks using Ruby on Rails, it means to show off what we’ve learned during the 9-weeks course and is an entirely functional website that allows people to register their lost pets and keep track of sightings entered by other folks.</p>
-            <p><a href="http://www.robyn.com.br" target="_blank"><i class="fas fa-desktop"></i> Website</a></p>
+                  <p>Robyn was conceived as the final project for me and two other colleagues at Le Wagon’s Full Stack Web Development bootcamp. Built from scratch in 1,5 weeks using Ruby on Rails, it means to show off what we’ve learned during the 9-weeks course and is an entirely functional website that allows people to register their lost pets and keep track of sightings entered by other folks.</p>
+                  <p><a href="http://www.robyn.com.br" target="_blank"><i class="fas fa-desktop"></i> Website</a></p>
                 </div>
                 <div class="col mockup-robyn">
-                  <img src="images/robyn-mockup.png" class="star" />
+                  <img src="images/robyn-mockup.png" class="picture" />
                 </div>
               </div>
-              </div>
+            </div>
           </div>
 
           <div id="project-others" class="tab">
@@ -202,7 +200,7 @@
                     Those which got released include <a href="http://www.boomcredit.mx/" target="_blank" style="font-weight: bolder;">Boom Credit</a>, a mexican online lending platform that <a href="https://www.prnewswire.com/news-releases/new-fintech-company-boom-credit-launches-in-mexico-300696101.html" target="_blank" style="font-weight: bolder;">scored a US$ 5MM Series Seed</a>; MyCash, an <a href="https://mycashjamaica.com/" target="_blank" style="font-weight: bolder;">international mobile wallet app</a> for Digicel Inc; <a href="https://www.crunchbase.com/organization/m-via" target="_blank" style="font-weight: bolder;">Boom Financial</a>, a US bank focused on international transfers; and <a href="https://www.vamoapp.com/" target="_blank" style="font-weight: bolder;">Vamo’s</a> own payment gateway platform.</p>
                 </div>
                 <div class="col mockup-others">
-                  <img src="images/others-mockup.png" class="star" />
+                  <img src="images/others-mockup.png" class="picture" />
                 </div>
               </div>
               </div>
@@ -213,17 +211,18 @@
 
   </section>
 
-    <section class="contact-me">
+<section class="link-contact">
 
-      <div class="container"  id="contact" style="margin-left: 14%;">
-        <div class="row">
-          <div class="col section-contact">
-            <h1>Contact me</h1>
-            <p> <a href="mailto:mbourg@gmail.com"><i class="fas fa-at"></i> mbourg@gmail.com</a></p>
-          </div>
-        </div>
-        </div>
-    </section>
+  <div class="container"  id="contact" style="margin-left: 14%;">
+    <div class="row">
+      <div class="col section-contact">
+        <h1>Contact me</h1>
+        <p> <a href="mailto:mbourg@gmail.com"><i class="fas fa-at"></i> mbourg@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+
+</section>
 
 </body>
 </html>
