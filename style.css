@@ -455,10 +455,6 @@ a:hover {
     font-size:  12px;
   }
 
-  .mid-project ul  {
-    font-size:  12px;
-  }
-
   .project-img img {
     width: 300px;
     margin-left: 12%;
@@ -554,7 +550,7 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
 
   /* Main section  */
 
@@ -571,6 +567,23 @@ a:hover {
     padding-top: 9%;
     display: flex;
     align-items: center;
+  }
+
+  .top p {
+    font-size: 30px;
+  }
+
+  .top-sub p {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+
+  .mid ul {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 18px;
   }
 
   /* About section  */
@@ -721,6 +734,23 @@ a:hover {
     padding-top: 11%;
     display: flex;
     align-items: center;
+  }
+
+  .top p {
+    font-size: 40px;
+  }
+
+  .top-sub p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .mid ul {
+    font-size: 20px;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   /* About section  */
@@ -886,11 +916,20 @@ a:hover {
   }
 
   .top p {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .top-sub p {
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .mid ul {
+    font-size: 20px;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   /* About section  */
