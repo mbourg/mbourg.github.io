@@ -327,19 +327,17 @@ a:hover {
   }
 
   .about-me {
-    margin-top: -20px;
     margin-left: -90px;
-    margin-right: -300px;
   }
 
   .about-me p {
-    padding-top: 90px;
+    padding-top: 30px;
     font-size: 40px;
     width: 700px;
   }
 
   .about-me h1 {
-    padding-top: 100px;
+    padding-top: 30px;
     font-size: 80px;
   }
 
