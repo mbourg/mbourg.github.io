@@ -272,7 +272,7 @@ a:hover {
 
 /* Media Queries */
 
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 1000px) {
   /* Main section  */
 
   .main {
