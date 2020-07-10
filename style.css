@@ -457,7 +457,6 @@ a:hover {
   }
 }
 
-
 @media only screen and (min-width: 1024px) {
   /* Main section  */
 
@@ -621,6 +620,10 @@ a:hover {
     font-family: "Roboto Slab", sans-serif;
   }
 
+  .skills-stack i {
+    font-size: 35px;
+  }
+
   .about-skills p {
     font-size: 12px;
   }
@@ -683,7 +686,7 @@ a:hover {
     height: 100vh;
     background-color: #ffd670;
     box-sizing: border-box;
-    padding-top: -100px;
+    padding-top: 20px;
     padding-left: 16%;
   }
 
@@ -703,7 +706,7 @@ a:hover {
   .about-img img {
     width: 400px;
     margin-left: 15%;
-    margin-top: 25%;
+    margin-top: 23%;
     border: 10px solid white;
   }
 
@@ -786,6 +789,10 @@ a:hover {
     font-weight: bolder;
   }
 
+  .skills-stack i {
+    font-size: 45px;
+  }
+
   .about-skills {
     margin-left: -20px;
     font-family: "Roboto Slab", sans-serif;
@@ -849,7 +856,7 @@ a:hover {
     height: 100vh;
     background-color: #ffd670;
     box-sizing: border-box;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 11%;
   }
 
@@ -955,6 +962,10 @@ a:hover {
     font-size: 18px;
   }
 
+  .skills-stack i {
+    font-size: 50px;
+  }
+
   .skills-stack {
     font-family: "Roboto Slab", sans-serif;
     margin-left: 100px;
@@ -1027,7 +1038,7 @@ a:hover {
     height: 100vh;
     background-color: #ffd670;
     box-sizing: border-box;
-    padding-top: 4%;
+    padding-top: 6%;
     margin-left: -200px;
   }
 
@@ -1042,7 +1053,7 @@ a:hover {
   .about-img img {
     width: 600px;
     margin-left: 15%;
-    margin-top: 20%;
+    margin-top: 18%;
     border: 10px solid white;
   }
 
@@ -1061,12 +1072,16 @@ a:hover {
   }
 
   .about-projects p {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 100;
   }
 
   .about-projects h1 {
     font-weight: bolder;
+  }
+
+  .mid-project a {
+    font-size: 22px;
   }
 
   .projects-sub {
@@ -1140,6 +1155,10 @@ a:hover {
     font-weight: bolder;
   }
 
+  .skills-stack i {
+    font-size: 60px;
+  }
+
   .about-skills {
     margin-left: -100px;
     font-family: "Roboto Slab", sans-serif;
@@ -1159,5 +1178,9 @@ a:hover {
     padding-top: 15%;
     margin-left: -70px;
     font-family: "Roboto Slab", sans-serif;
+  }
+
+  .section-contact p {
+    font-size: 22px;
   }
 }
