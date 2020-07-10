@@ -276,7 +276,7 @@ a:hover {
   /* Main section  */
 
   .main {
-    height: 30vh;
+    height: 100vh;
     background-color: #f3e8ee;
     box-sizing: border-box;
     margin-left: -70px;
@@ -284,29 +284,33 @@ a:hover {
 
   .top {
     margin-left: 15%;
-    margin-top: 0;
     padding-top: 9%;
     display: flex;
     align-items: center;
   }
 
   .top p {
-    font-size: 60px;
+    padding-top: 30%;
+    font-size: 160px;
+    line-height: 1.2;
   }
 
   .top-sub p {
-    font-size: 30px;
+    padding-top: 50px;
+    font-size: 60px;
   }
 
   .mid ul {
-    font-size: 25px;
+    padding-top: 50px;
+    font-size: 50px;
   }
 
   .footer p {
+    padding-top: 50px;
     padding-right: 60px;
     font-family: "Roboto Slab", sans-serif;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 60px;
   }
 
   /* About section  */
@@ -316,32 +320,32 @@ a:hover {
     background-color: #ffd670;
     box-sizing: border-box;
     padding-top: 0px;
-    padding-left: 16%;
+    padding-left: 8%;
   }
 
   .about-section {
-    padding-top: 1%;
     font-family: "Roboto Slab", sans-serif;
   }
 
   .about-me {
     margin-top: -20px;
     margin-left: -90px;
+    margin-right: -300px;
   }
 
   .about-me p {
-    font-size: 12px;
+    padding-top: 90px;
+    font-size: 40px;
+    width: 700px;
   }
 
   .about-me h1 {
-    font-size: 30px;
+    padding-top: 100px;
+    font-size: 80px;
   }
 
   .about-img img {
-    width: 300px;
-    margin-left: 15%;
-    margin-top: 23%;
-    border: 7px solid white;
+    display: none;
   }
 
   /* Projects section */
