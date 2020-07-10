@@ -284,13 +284,12 @@ a:hover {
 
   .top {
     margin-left: 15%;
-    padding-top: 9%;
     display: flex;
     align-items: center;
   }
 
   .top p {
-    padding-top: 30%;
+    padding-top: 15%;
     font-size: 160px;
     line-height: 1.2;
   }
